@@ -6,7 +6,7 @@ const UserCard = ({ user }) => {
       <img
         src={user.image}
         alt={user.name}
-        className="w-16 h-16 rounded-full "
+        className="w-20 h-20 rounded-full "
       />
       <div className="ml-4">
         <h2 className="text-lg font-semibold">{user.name}</h2>
