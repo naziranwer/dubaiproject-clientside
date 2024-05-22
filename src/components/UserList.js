@@ -63,7 +63,7 @@ const UserList = () => {
               (category) => (
                 <button
                   key={category}
-                  className={`px-4 py-2 rounded-lg ${
+                  className={`px-4 py-2 rounded-lg font-semibold ${
                     filter === category
                       ? "bg-customBlue text-white"
                       : "bg-white text-gray-800"
